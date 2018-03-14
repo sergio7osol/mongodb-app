@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "SVO",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec \"yarn find\"",
+    "connect": "node ./playground/mongodb-connect.js",
+    "find": "node ./playground/mongodb-find.js"
+  },
   "dependencies": {
     "mongodb": "^3.0.3"
   }
